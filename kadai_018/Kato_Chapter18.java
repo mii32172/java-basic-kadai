@@ -12,7 +12,6 @@ abstract public class Kato_Chapter18 {
 	
 	//抽象メソッド
 	//共通の紹介を出力する
-	abstract public void setGivenName(); // 名を設定
 	
 	public void commonIntroduce() {
 		System.out.println("名前は" + familyName  + givenName + "です");
