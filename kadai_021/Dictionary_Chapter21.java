@@ -26,12 +26,13 @@ public class Dictionary_Chapter21 {
 }
 	
 	// 単語を調べるメソッド
-    public void search(String word) {
+    public void searchWords(String[] words) {
+    	for(String word : words) {
         if (fruitMap.containsKey(word)) {
             System.out.println(word + "の意味は" + fruitMap.get(word) + "です");
         } else {
             System.out.println(word + "は辞書に存在しません");
         }
-    }
-	
-}		
+  }
+}
+}
