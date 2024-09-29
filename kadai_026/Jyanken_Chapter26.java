@@ -29,7 +29,7 @@ public class Jyanken_Chapter26 {
 	public String getRandom() {
 		String[] challenger = {"r", "s", "p" }; //配列にじゃんけんの手をセット
 		
-		int c = (int)(Math.floor(Math.random() * 2)); //乱数で対戦相手のじゃんけんの手を選ぶ
+		int c = (int)(Math.floor(Math.random() * 3)); //乱数で対戦相手のじゃんけんの手を選ぶ
 		
 		return challenger[c]; //じゃんけんを実行するクラスに対戦相手のジャンケンの手を返す
 		
